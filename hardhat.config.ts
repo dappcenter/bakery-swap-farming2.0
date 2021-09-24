@@ -12,9 +12,9 @@ import '@typechain/hardhat'
 import 'hardhat-watcher'
 import 'solidity-coverage'
 
-const INFURA_API_KEY = 'YOUR_API_KEY'
-const PRIVATE_KEY: string = process.env.PRIVATE_KEY || '0x1a'
-const ETHERSCAN_API_KEY = 'YOUR_API_KEY'
+//const INFURA_API_KEY = 'YOUR_API_KEY'
+//const PRIVATE_KEY: string = process.env.PRIVATE_KEY || '0x1a'
+//const ETHERSCAN_API_KEY = 'YOUR_API_KEY'
 
 const config: HardhatUserConfig = {
   paths: {
